@@ -4,6 +4,7 @@ import menuItems from './menuItems.json';
 export default App = () => {
   const { menu } = menuItems;
 
+
   const Item = ({ name, price }) => (
     <View style={menuStyles.innerContainer}>
       <Text style={menuStyles.itemText}>{name}</Text>
